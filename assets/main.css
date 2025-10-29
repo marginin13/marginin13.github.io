@@ -3,18 +3,11 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #000; /* czarne tło */
+  background-color: #111218;
   height: 100%;
 }
 
-/* dopasuj top do notch'a / status bara */
-.top_grid {
-  padding-top: env(safe-area-inset-top);
-  padding-top: constant(safe-area-inset-top); /* starsze Safari */
-  background-color: #000; /* ten sam kolor co tło */
-}
-
-/* jeśli body ma biały pasek z innego powodu */
+/* Zapełnij górny bezpieczny obszar */
 body::before {
   content: "";
   position: fixed;
@@ -22,8 +15,15 @@ body::before {
   left: 0;
   right: 0;
   height: env(safe-area-inset-top);
-  background: #000;
+  background: #111218;
   z-index: 9999;
+}
+
+/* Dostosuj górny pasek do iPhone notch */
+.top_grid {
+  padding-top: env(safe-area-inset-top);
+  padding-top: constant(safe-area-inset-top);
+  background-color: #111218;
 }
 
 input::-webkit-outer-spin-button,
@@ -259,5 +259,6 @@ p, input{
     margin-left: auto;
 
 }
+
 
 
