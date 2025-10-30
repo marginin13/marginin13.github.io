@@ -6,12 +6,6 @@ html{
     -webkit-background-clip: border-box;
 }
 
-html, body {
-  overflow-x: hidden;
-  overflow-y: hidden;
-
-}
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
