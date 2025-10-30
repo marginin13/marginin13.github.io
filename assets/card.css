@@ -612,7 +612,7 @@ body .bottom_bar{
     box-shadow: var(--shadow);
     box-sizing: border-box;
     height: auto;
-    overflow: visible;
+    overflow: hidden;
     margin-left: auto;
     margin-right: auto;
     font-family: "Poppins", sans-serif;
