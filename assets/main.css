@@ -6,23 +6,6 @@ html{
     -webkit-background-clip: border-box;
 }
 
-html, body {
-  height: 100%;
-  overflow: hidden; /* wyłącz scrollbar dokumentu */
-}
-
-.scrollable {
-  height: 100%;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch; /* płynne przewijanie na iOS */
-  scrollbar-width: none; /* Firefox */
-}
-
-.scrollable::-webkit-scrollbar {
-  display: none; /* Safari / Chrome */
-}
-
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -255,5 +238,6 @@ p, input{
     margin-right: 0px;
     margin-left: auto;
 }
+
 
 
