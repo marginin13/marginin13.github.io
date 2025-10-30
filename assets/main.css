@@ -2,6 +2,7 @@
 
 html{
     scrollbar-width: none;
+    -ms-overflow-style: none;
     scroll-behavior: smooth;
     background: #111218;
     -webkit-background-clip: border-box;
@@ -239,6 +240,7 @@ p, input{
     margin-right: 0px;
     margin-left: auto;
 }
+
 
 
 
