@@ -12,7 +12,12 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-html::-webkit-scrollbar {
+body {
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+}
+
+body::-webkit-scrollbar {
     display: none; // Safari and Chrome
 }
 
@@ -242,6 +247,7 @@ p, input{
     margin-right: 0px;
     margin-left: auto;
 }
+
 
 
 
