@@ -8,6 +8,8 @@ html{
 
 html, body {
   overflow-x: hidden;
+  overflow-y: hidden;
+  overflow: hidden;
 }
 
 input::-webkit-outer-spin-button,
