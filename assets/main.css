@@ -238,3 +238,21 @@ p, input{
     margin-right: 0px;
     margin-left: auto;
 }
+
+/* --- Ukrycie paska przewijania na iOS PWA, ale z zachowaniem scrolla --- */
+html, body {
+  height: 100%;
+  overflow: hidden; /* wyłącz scrollbar dokumentu */
+}
+
+.scrollable {
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; /* płynne przewijanie na iOS */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollable::-webkit-scrollbar {
+  display: none; /* Safari / Chrome */
+}
+
