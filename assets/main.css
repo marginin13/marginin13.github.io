@@ -12,7 +12,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-::-webkit-scrollbar {
+html::-webkit-scrollbar {
     display: none; // Safari and Chrome
 }
 
@@ -242,6 +242,7 @@ p, input{
     margin-right: 0px;
     margin-left: auto;
 }
+
 
 
 
