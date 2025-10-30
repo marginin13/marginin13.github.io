@@ -12,6 +12,10 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+::-webkit-scrollbar {
+    display: none; // Safari and Chrome
+}
+
 :root{
     --home: url('https://i.imgur.com/IpITRfg.png');
     --home-open: url('https://i.imgur.com/ji8YOOr.png');
@@ -238,6 +242,7 @@ p, input{
     margin-right: 0px;
     margin-left: auto;
 }
+
 
 
 
