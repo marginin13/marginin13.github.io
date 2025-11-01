@@ -276,7 +276,7 @@ body .bottom_bar{
     transition: 200ms;
 }
 
-.id_bottom{
+.id_bottom {
     box-shadow: var(--shadow);
     border-radius: 0px 0px 19px 19px;
     background-color: var(--background2);
@@ -285,13 +285,8 @@ body .bottom_bar{
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -6px; /* 🔧 tylko lekko dosunięte */
     margin-bottom: 20px;
-    margin-top: -30px
-}
-
-.id_image {
-    margin-bottom: 0px; /* usuwa pusty odstęp pod zdjęciem */
-    display: block;
 }
 
 .back_text{
