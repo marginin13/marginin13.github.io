@@ -281,12 +281,13 @@ body .bottom_bar{
     border-radius: 0px 0px 19px 19px;
     background-color: var(--background2);
     height: 80px;
-    z-index: 1;
+    z-index: 5;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -6px; /* 🔧 tylko lekko dosunięte */
+    margin-top: -18px; /* 🔥 dopasowane do czerwonej linii */
     margin-bottom: 20px;
+    position: relative;
 }
 
 .back_text{
