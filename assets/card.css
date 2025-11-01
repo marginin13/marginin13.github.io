@@ -234,7 +234,7 @@ body .bottom_bar{
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
     height: 100%;
-    margin-top: -30px;
+    margin-top: -100px;
 }
 
 .bottom_update_grid{
