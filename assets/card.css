@@ -151,12 +151,15 @@ body .bottom_bar{
     margin-bottom: auto;
 }
 
-.id_image_data{
-    position: relative;
+.id_image_data {
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 19px 19px 0 0;
 }
 
-.id_image{
-    z-index: -1;
+.id_image {
     width: 95%;
     height: 53%;
     margin-left: auto;
@@ -165,8 +168,8 @@ body .bottom_bar{
     z-index: -1;
     pointer-events: none;
     box-shadow: var(--shadow);
-    clip-path: inset(-10px -10px 0px -10px);
-    border-radius: 19px 19px 0px 0px;
+    clip-path: inset(-10px -10px 55px -10px);
+    border-radius: 19px 19px 0 0;
 }
 
 .other_grid{
@@ -691,5 +694,6 @@ body .bottom_bar{
     font-weight: 600;
     text-align: center; 
 }
+
 
 
