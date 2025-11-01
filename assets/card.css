@@ -153,10 +153,6 @@ body .bottom_bar{
 
 .id_image_data {
   position: relative;
-  width: 95%;
-  margin: 0 auto;
-  overflow: hidden;
-  border-radius: 19px 19px 0 0;
 }
 
 .id_image {
@@ -694,6 +690,7 @@ body .bottom_bar{
     font-weight: 600;
     text-align: center; 
 }
+
 
 
 
